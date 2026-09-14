@@ -8,6 +8,13 @@ Project-level instructions for Claude Code when working in this repo.
 - Everything else — code, comments, commit messages, PR titles/descriptions,
   docs, branch names — in English.
 
+## Code style
+
+- No comments in code by default — neither `//` nor XML-doc `///`.
+- Exceptions: the user explicitly asks for a comment on something, or it's
+  genuine public-API documentation (e.g. XML doc comments on a controller's
+  endpoints).
+
 ## Git
 
 - Never `git commit` or `git push` on your own initiative — only when the
