@@ -1,0 +1,7 @@
+﻿services:
+  gachatracker:
+    image: gachatracker
+    build:
+      context: .
+      dockerfile: GachaTracker/Dockerfile
+
