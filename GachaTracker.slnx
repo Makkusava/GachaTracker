@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/">
-    <File Path="compose.yaml" />
+    <File Path="deploy/compose.yaml" />
   </Folder>
-  <Project Path="GachaTracker/GachaTracker.csproj" />
+  <Project Path="src/GachaTracker/GachaTracker.csproj" />
 </Solution>

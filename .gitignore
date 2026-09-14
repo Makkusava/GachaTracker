@@ -1,7 +1,66 @@
-bin/
-obj/
-/packages/
+# ---- Build outputs ----
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+build/
+publish/
+
+# ---- .NET / MSBuild ----
+*.user
+*.userosscache
+*.suo
+*.userprefs
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.dotnet/
+
+# ---- Test results ----
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.nuget/
+
+# ---- Rider / ReSharper ----
+.idea/
+*.sln.iml
 riderModule.iml
 /_ReSharper.Caches/
-.idea/
+
+# ---- Visual Studio ----
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# ---- VS Code ----
+.vscode/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Secrets / env ----
+.env
+*.env
+appsettings.*.local.json
+secrets.json
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Docker ----
+docker-compose.override.yaml
+
+# ---- Tooling / local configs ----
 .mcp.json

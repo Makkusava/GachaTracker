@@ -1,0 +1,6 @@
+services:
+  gachatracker:
+    image: gachatracker
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
