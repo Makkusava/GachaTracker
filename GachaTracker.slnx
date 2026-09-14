@@ -1,6 +1,15 @@
 <Solution>
-  <Folder Name="/Solution Items/">
+  <Folder Name="/.claude/">
+    <File Path=".claude/README.md" />
+  </Folder>
+  <Folder Name="/deploy/">
+    <File Path="deploy/Dockerfile" />
     <File Path="deploy/compose.yaml" />
   </Folder>
-  <Project Path="src/GachaTracker/GachaTracker.csproj" />
+  <Folder Name="/docs/">
+    <File Path="docs/README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/GachaTracker/GachaTracker.csproj" />
+  </Folder>
 </Solution>
